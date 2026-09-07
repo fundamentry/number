@@ -97,9 +97,6 @@ catalogs:
       specifier: 5.0.0
       version: 5.0.0
 
-overrides:
-  nx@23.1.1>brace-expansion: 5.0.9
-
 importers:
 
   .:
