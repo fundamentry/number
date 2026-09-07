@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 
 import { NumberAssertionError } from '@project/error';
 
-import { assertNonPositive, isNonPositive, nonPositive } from '.';
+import { assertNonPositive, isNonPositive, nonPositive } from './non-positive';
 
 const NON_POSITIVE_VALUES = [
   0,
