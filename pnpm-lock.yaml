@@ -13,8 +13,8 @@ catalogs:
       specifier: 21.2.2
       version: 21.2.2
     '@fundamentry/eslint-config-json':
-      specifier: 1.4.6
-      version: 1.4.6
+      specifier: 1.4.7
+      version: 1.4.7
     '@fundamentry/eslint-config-prettier':
       specifier: 1.0.6
       version: 1.0.6
@@ -112,7 +112,7 @@ importers:
         version: 21.2.2
       '@fundamentry/eslint-config-json':
         specifier: 'catalog:'
-        version: 1.4.6(eslint-plugin-json-format@2.0.1(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0))(eslint@8.57.1(supports-color@7.2.0))
+        version: 1.4.7(eslint-plugin-json-format@2.0.1(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0))(eslint@8.57.1(supports-color@7.2.0))
       '@fundamentry/eslint-config-prettier':
         specifier: 'catalog:'
         version: 1.0.6(eslint-config-prettier@10.1.8(eslint@8.57.1(supports-color@7.2.0)))(eslint-plugin-prettier@5.5.6(eslint-config-prettier@10.1.8(eslint@8.57.1(supports-color@7.2.0)))(eslint@8.57.1(supports-color@7.2.0))(prettier@3.9.6))(eslint@8.57.1(supports-color@7.2.0))(prettier@3.9.6)
@@ -929,8 +929,8 @@ packages:
       eslint-config-airbnb-base: 15.0.0
       eslint-plugin-import: 2.32.0
 
-  '@fundamentry/eslint-config-json@1.4.6':
-    resolution: {integrity: sha512-4OLD4L1ZmDhOSAbjpU+Eu5ONsSgJfMYWe4JvOHAUMWFda7jISLWU4iCh6rzFYrO9OQwaX7euteYnLVNgzl+pZg==, tarball: https://npm.pkg.github.com/download/@fundamentry/eslint-config-json/1.4.6/40ba17469c2db00530f6de599eac7f3c0ae3a3d0}
+  '@fundamentry/eslint-config-json@1.4.7':
+    resolution: {integrity: sha512-O34YQfsma17c4Ag3GfO1JZbt1gLcgmmUYMlykodq5IQtpRHQs1o1zXTzbPvMti7BfAc/NRLQQU7AcECMk6T72Q==, tarball: https://npm.pkg.github.com/download/@fundamentry/eslint-config-json/1.4.7/0a8fcb7a472bbeb02b98a2a255ed70d98490565c}
     engines: {node: '>=24', pnpm: '>=11'}
     peerDependencies:
       eslint: 8.57.1
@@ -4858,7 +4858,7 @@ snapshots:
       eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.32.0)(eslint@8.57.1(supports-color@7.2.0))
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.69.0(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint-import-resolver-typescript@4.4.5)(eslint@8.57.1(supports-color@7.2.0))
 
-  '@fundamentry/eslint-config-json@1.4.6(eslint-plugin-json-format@2.0.1(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0))(eslint@8.57.1(supports-color@7.2.0))':
+  '@fundamentry/eslint-config-json@1.4.7(eslint-plugin-json-format@2.0.1(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0))(eslint@8.57.1(supports-color@7.2.0))':
     dependencies:
       eslint: 8.57.1(supports-color@7.2.0)
       eslint-plugin-json-format: 2.0.1(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0)
