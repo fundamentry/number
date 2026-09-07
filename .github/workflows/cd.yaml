@@ -58,6 +58,9 @@ jobs:
           git_commit_gpgsign: true
           git_tag_gpgsign: true
 
+      - name: Build
+        run: pnpm build
+
       - name: Release
         run: pnpm nx release --yes --first-release ${{ inputs.version }}
         env:
