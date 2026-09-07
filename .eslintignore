@@ -1,0 +1,14 @@
+.DS_Store
+
+.github
+.husky
+.vscode
+.nx
+
+coverage
+lib
+node_modules
+
+LICENCE
+
+README.md
