@@ -1,8 +1,8 @@
 import {
   type NonPositive,
   type NumberAssertionErrorMessage,
-} from '@project/types';
-import { handleNumberAssertionError } from '@project/util';
+} from '#project/types';
+import { handleNumberAssertionError } from '#project/util';
 
 export const isNonPositive = (value: number): value is NonPositive =>
   value <= 0;

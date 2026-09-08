@@ -1,5 +1,5 @@
-import { NumberAssertionError } from '@project/error';
-import { type NumberAssertionErrorMessage } from '@project/types';
+import { NumberAssertionError } from '#project/error';
+import { type NumberAssertionErrorMessage } from '#project/types';
 
 export const handleNumberAssertionError = (
   value: number,

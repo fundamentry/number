@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 
-import { NumberAssertionError } from '@project/error';
+import { NumberAssertionError } from '#project/error';
 
 import { assertPositive, isPositive, positive } from './positive';
 
