@@ -1,7 +1,4 @@
-import {
-  type Positive,
-  type NumberAssertionErrorMessage,
-} from '#project/types';
+import { type Positive, type NumberAssertionErrorMessage } from '#project/type';
 import { handleNumberAssertionError } from '#project/util';
 
 export const isPositive = (value: number): value is Positive => value > 0;

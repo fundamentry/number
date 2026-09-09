@@ -1,4 +1,4 @@
-import { type Zero, type NumberAssertionErrorMessage } from '#project/types';
+import { type Zero, type NumberAssertionErrorMessage } from '#project/type';
 import { handleNumberAssertionError } from '#project/util';
 
 export const isZero = (value: number): value is Zero => value === 0;

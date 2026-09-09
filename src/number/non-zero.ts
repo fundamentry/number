@@ -1,4 +1,4 @@
-import { type NonZero, type NumberAssertionErrorMessage } from '#project/types';
+import { type NonZero, type NumberAssertionErrorMessage } from '#project/type';
 import { handleNumberAssertionError } from '#project/util';
 
 export const isNonZero = (value: number): value is NonZero => value !== 0;
