@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 
 import { NumberAssertionError } from '#project/error';
 
-import { assertPositive, isPositive, positive } from './positive';
+import { assertPositive, isPositive, positive } from './positive.js';
 
 const POSITIVE_VALUES = [1, 0.1, Number.MIN_VALUE, Number.MAX_VALUE, Infinity];
 

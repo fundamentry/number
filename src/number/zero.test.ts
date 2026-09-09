@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 
 import { NumberAssertionError } from '#project/error';
 
-import { assertZero, isZero, zero } from './zero';
+import { assertZero, isZero, zero } from './zero.js';
 
 const ZERO_VALUES = [0, -0];
 

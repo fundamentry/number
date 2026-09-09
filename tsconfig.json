@@ -5,6 +5,8 @@
     "lib": [
       "ESNext"
     ],
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "skipLibCheck": true
   },
   "include": [

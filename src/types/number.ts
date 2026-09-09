@@ -1,4 +1,4 @@
-import { type Brand } from './brand';
+import { type Brand } from './brand.js';
 
 export type Negative = Brand.Branded<number, 'Negative'>;
 

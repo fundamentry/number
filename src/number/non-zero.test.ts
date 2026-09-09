@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 
 import { NumberAssertionError } from '#project/error';
 
-import { assertNonZero, isNonZero, nonZero } from './non-zero';
+import { assertNonZero, isNonZero, nonZero } from './non-zero.js';
 
 const NON_ZERO_VALUES = [
   1,

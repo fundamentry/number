@@ -1,1 +1,1 @@
-export { NumberAssertionError } from './NumberAssertionError';
+export { NumberAssertionError } from './NumberAssertionError.js';
