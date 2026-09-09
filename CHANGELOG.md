@@ -1,3 +1,9 @@
+## 1.0.3
+
+### 🩹 Fixes
+
+- use 'nodenext' module resolution strategy to produce correct build ([2bfb1c5](https://github.com/fundamentry/number/commit/2bfb1c5))
+
 ## 1.0.2
 
 ### 🩹 Fixes
