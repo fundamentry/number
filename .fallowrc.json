@@ -22,9 +22,9 @@
   "boundaries": {
     "zones": [
       {
-        "name": "types",
+        "name": "type",
         "patterns": [
-          "src/types/**"
+          "src/type/**"
         ]
       },
       {
@@ -48,7 +48,7 @@
     ],
     "rules": [
       {
-        "from": "types",
+        "from": "type",
         "allow": []
       },
       {
@@ -58,14 +58,14 @@
       {
         "from": "util",
         "allow": [
-          "types",
+          "type",
           "error"
         ]
       },
       {
         "from": "number",
         "allow": [
-          "types",
+          "type",
           "error",
           "util"
         ]
