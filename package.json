@@ -54,7 +54,8 @@
     "qualify": "fallow audit",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "typecheck": "tsc"
   },
   "devDependencies": {
     "@commitlint/cli": "catalog:",

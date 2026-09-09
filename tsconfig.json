@@ -4,7 +4,8 @@
   "compilerOptions": {
     "lib": [
       "ESNext"
-    ]
+    ],
+    "skipLibCheck": true
   },
   "include": [
     "src",
