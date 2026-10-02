@@ -1,3 +1,4 @@
+export { isInteger, assertInteger, integer } from './integer.js';
 export { isNegative, assertNegative, negative } from './negative.js';
 export {
   isNonNegative,

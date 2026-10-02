@@ -1,5 +1,7 @@
 import { type Brand } from '@fundamentry/brand';
 
+export type Integer = Brand.Branded<number, 'Integer'>;
+
 export type Negative = Brand.Branded<number, 'Negative'>;
 
 export type NonNegative = Brand.Branded<number, 'NonNegative'>;
