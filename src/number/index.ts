@@ -1,5 +1,11 @@
+export { isInfinity, assertInfinity, infinity } from './infinity.js';
 export { isInteger, assertInteger, integer } from './integer.js';
 export { isNegative, assertNegative, negative } from './negative.js';
+export {
+  isNegativeInfinity,
+  assertNegativeInfinity,
+  negativeInfinity,
+} from './negative-infinity.js';
 export {
   isNonNegative,
   assertNonNegative,
@@ -17,4 +23,9 @@ export {
 } from './non-positive.js';
 export { isNonZero, assertNonZero, nonZero } from './non-zero.js';
 export { isPositive, assertPositive, positive } from './positive.js';
+export {
+  isPositiveInfinity,
+  assertPositiveInfinity,
+  positiveInfinity,
+} from './positive-infinity.js';
 export { isZero, assertZero, zero } from './zero.js';

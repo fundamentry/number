@@ -1,8 +1,12 @@
 import { type Brand } from '@fundamentry/brand';
 
+export type Infinity = Brand.Branded<number, 'Infinity'>;
+
 export type Integer = Brand.Branded<number, 'Integer'>;
 
 export type Negative = Brand.Branded<number, 'Negative'>;
+
+export type NegativeInfinity = Infinity & Negative;
 
 export type NonNegative = Brand.Branded<number, 'NonNegative'>;
 
@@ -13,5 +17,7 @@ export type NonPositive = Brand.Branded<number, 'NonPositive'>;
 export type NonZero = Brand.Branded<number, 'NonZero'>;
 
 export type Positive = Brand.Branded<number, 'Positive'>;
+
+export type PositiveInfinity = Infinity & Positive;
 
 export type Zero = Brand.Branded<number, 'Zero'>;
