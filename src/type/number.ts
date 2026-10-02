@@ -1,4 +1,4 @@
-import { type Brand } from './brand.js';
+import { type Brand } from '@fundamentry/brand';
 
 export type Negative = Brand.Branded<number, 'Negative'>;
 

@@ -12,6 +12,9 @@ catalogs:
     '@commitlint/config-conventional':
       specifier: 21.2.2
       version: 21.2.2
+    '@fundamentry/brand':
+      specifier: 2.0.1
+      version: 2.0.1
     '@fundamentry/eslint-config-json':
       specifier: 1.4.7
       version: 1.4.7
@@ -100,6 +103,10 @@ catalogs:
 importers:
 
   .:
+    dependencies:
+      '@fundamentry/brand':
+        specifier: 'catalog:'
+        version: 2.0.1
     devDependencies:
       '@commitlint/cli':
         specifier: 'catalog:'
@@ -917,6 +924,9 @@ packages:
     resolution: {integrity: sha512-F8ILplSHy+2xLDCDI0iy/O5rU76Ar3v0Y/2pIxB4d2UzX68K/qrmrT2HSu0i41l+zUfgCCnJ5gU6/eHWt1/wKw==}
     cpu: [x64]
     os: [win32]
+
+  '@fundamentry/brand@2.0.1':
+    resolution: {integrity: sha512-3Mc2rK5/YPTuJYKu5VNYSbrXA9H0cxMRFhRB4y8hPe83pCBrm0jyJtm1WUttQuuxsLTYqScj1vuYpByzxl1gmg==, tarball: https://npm.pkg.github.com/download/@fundamentry/brand/2.0.1/4350c0dc19e5c9051be9de44a56bfabc6502aec0}
 
   '@fundamentry/eslint-config-base@1.1.8':
     resolution: {integrity: sha512-frbTHjKHozhwjSkiwHLemqaceu1u4MIR9H7SfBKa0Gm8v2+dYwB9sDMltFM7KUiG0FWH3Ywq9clRtRXG5o6XyA==, tarball: https://npm.pkg.github.com/download/@fundamentry/eslint-config-base/1.1.8/c67dfda7e64fc84edf5e0bcd518f3002e3699c39}
@@ -4848,6 +4858,8 @@ snapshots:
 
   '@fallow-cli/win32-x64-msvc@3.23.0':
     optional: true
+
+  '@fundamentry/brand@2.0.1': {}
 
   '@fundamentry/eslint-config-base@1.1.8(eslint-config-airbnb-base@15.0.0(eslint-plugin-import@2.32.0)(eslint@8.57.1(supports-color@7.2.0)))(eslint-plugin-import@2.32.0)(eslint@8.57.1(supports-color@7.2.0))':
     dependencies:

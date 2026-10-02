@@ -13,7 +13,6 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       include: ['src/**/*.ts'],
-      exclude: ['src/type/brand.ts'],
       thresholds: { 100: true },
     },
   },
