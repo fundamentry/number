@@ -1,3 +1,15 @@
+## 1.1.0
+
+### 🚀 Features
+
+- implement 'Integer' ([5d3cd85](https://github.com/fundamentry/number/commit/5d3cd85))
+- implement 'NonNegativeInteger' ([a96d8c6](https://github.com/fundamentry/number/commit/a96d8c6))
+
+### 🩹 Fixes
+
+- resolve internal imports to compiled declarations for consumers ([35b6a86](https://github.com/fundamentry/number/commit/35b6a86))
+- exclude test files from the published package ([4d898c5](https://github.com/fundamentry/number/commit/4d898c5))
+
 ## 1.0.3
 
 ### 🩹 Fixes
