@@ -6,6 +6,8 @@ export type Negative = Brand.Branded<number, 'Negative'>;
 
 export type NonNegative = Brand.Branded<number, 'NonNegative'>;
 
+export type NonNegativeInteger = Integer & NonNegative;
+
 export type NonPositive = Brand.Branded<number, 'NonPositive'>;
 
 export type NonZero = Brand.Branded<number, 'NonZero'>;

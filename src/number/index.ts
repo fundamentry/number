@@ -6,6 +6,11 @@ export {
   nonNegative,
 } from './non-negative.js';
 export {
+  isNonNegativeInteger,
+  assertNonNegativeInteger,
+  nonNegativeInteger,
+} from './non-negative-integer.js';
+export {
   isNonPositive,
   assertNonPositive,
   nonPositive,
