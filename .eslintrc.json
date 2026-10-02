@@ -53,6 +53,8 @@
         "es6": true
       },
       "rules": {
+        "import/extensions": "off",
+        "import/no-unresolved": "off",
         "@typescript-eslint/no-namespace": "off"
       },
       "globals": {
