@@ -7,6 +7,9 @@
     ],
     "module": "nodenext",
     "moduleResolution": "nodenext",
+    "customConditions": [
+      "@fundamentry/source"
+    ],
     "skipLibCheck": true
   },
   "include": [
