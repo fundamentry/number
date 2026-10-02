@@ -1,3 +1,9 @@
+## 1.2.0
+
+### 🚀 Features
+
+- implement 'Infinity', 'NegativeInfinity' and 'PositiveInfinity' ([95c7621](https://github.com/fundamentry/number/commit/95c7621))
+
 ## 1.1.0
 
 ### 🚀 Features
